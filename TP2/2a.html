@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jeu</title>
+</head>
+<body>
+	<div style="text-align: center;">
+		<h2>Vous commencez &agrave; avoir faim et soif...</h2> 
+		<img src="img/foret2.jfif" alt="reveil dans la foret" usemap="#image-map">
+		<map name="image-map">
+			<area target="" alt="Boire de l'eau" title="Boire de l'eau" href="toxic.html" coords="555,465,534,416,322,422,412,466,523,486" shape="poly">
+			<area target="" alt="Boire de l'eau" title="Boire de l'eau" href="toxic.html" coords="1275,491,935,451,878,540,973,600,1050,576,1138,590,1224,615,1279,582" shape="poly">
+			<area target="" alt="Entrer dans le batiment" title="Entrer dans le batiment" href="bat.html" coords="944,205,1279,458" shape="rect">
+			<area target="" alt="Partir dans la foret" title="Partir dans la foret" href="" coords="319,272,757,416" shape="rect">
+		</map>
+	</div>
+	<div>
+		<label for="barrefaim">Vous avez faim</label>
+		<progress id="barrefaim" max="100" value="20" style="accent-color: red;"></progress>	
+	</div>
+	<div>
+		<label for="barresoif">Vous avez soif</label>
+		<progress id="barresoif" max="100" value="20" style="accent-color: red;"></progress>
+	</div>
+</body>
+</html>
