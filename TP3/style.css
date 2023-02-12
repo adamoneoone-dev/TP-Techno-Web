@@ -1,0 +1,18 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	caption-side: bottom;
+	font-weight: bold;
+  }
+
+th {
+	border: 1px solid blue;
+	height: 2.4em;
+}
+
+th:empty, td:empty {
+	border: 0px;
+}
+tbody > tr > td {
+	vertical-align:text-top;
+}
